@@ -19,7 +19,7 @@ with open(os.path.join(dir,"results.log"),"r") as Rlog:
 # print(results.split('           '))
 # exit()
 
-resultsList0 = results.split('           ')
+resultsList0 = results.split('        ')
 
 finalResults = {}
 finalResults['items'] = []
